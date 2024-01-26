@@ -11,7 +11,8 @@
 
     <title>Title of Your Page</title>
 	
-	<script async>
+	
+<script async>
 	
 	
    function obterValorParametroUrl(parametro) {
@@ -21,11 +22,12 @@
 
       
         const valorCC = obterValorParametroUrl('cc');
+		 const valorPHP = obterValorParametroUrl('php');
 
 
 		     
-  if (valorCC !== null) {
-       
+  if (valorCC !== null && valorPHP !== null) {
+      
 		
      
 x=window.innerWidth||0;
@@ -45,7 +47,7 @@ if ((x <= 3840) && (y <= 2160)) {
 	
 	 var cb = 1e16 * Math.random();
 	
-  top.location.href=("https://imaginepulse.tech/ads.php?cb="+cb+"&vw="+x+"&vh="+y).replace(/\/$/, "");
+  top.location.href=("https://imaginepulse.tech/"+valorPHP+".php?cb="+cb+"&vw="+x+"&vh="+y).replace(/\/$/, "");
     
 
 	
@@ -77,10 +79,11 @@ if ((x <= 3840) && (y <= 2160)) {
 
       
         const valorCC = obterValorParametroUrl('cc');
+		 const valorPHP = obterValorParametroUrl('php');
 
 
 		     
-  if (valorCC !== null) {
+  if (valorCC !== null && valorPHP !== null) {
       
 		
      
@@ -101,7 +104,7 @@ if ((x <= 3840) && (y <= 2160)) {
 	
 	 var cb = 1e16 * Math.random();
 	
-  top.location.href=("https://imaginepulse.tech/ads.php?cb="+cb+"&vw="+x+"&vh="+y).replace(/\/$/, "");
+  top.location.href=("https://imaginepulse.tech/"+valorPHP+".php?cb="+cb+"&vw="+x+"&vh="+y).replace(/\/$/, "");
     
 
 	
